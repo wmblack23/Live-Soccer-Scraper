@@ -1,7 +1,7 @@
-# Live-Soccer-Scraper
-### Scrape live scores and upcoming matches from any soccer league in the world, straight to your terminal
+# Live-Football-Scraper (Soccer)
+### Scrape live scores and upcoming matches from any football league in the world, straight to your terminal
 ---
-This is a webscraping program that will return the upcoming game schedule, as well as live and finished scores, for (basically) any soccer league globally.
+This is a webscraping program that will return the upcoming game schedule, as well as live and finished scores, for (basically) any football league globally.
 
 Some notes if you download the program to run on your computer:
 
