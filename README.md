@@ -7,7 +7,7 @@ Some notes if you download the program to run on your computer:
 
 1. There is a list titled *lgs* on line 148/149.  Fill this list in with all of the leagues that you want to include in your version of the program.  
 
-    For me, *lgs* looks like = ["English Premier League", "Spanish La Liga", 'Italian Serie A", "French Ligue 1", "German Bundesliga", "Champions League"].  
+    For me, as an example, *lgs* looks like = ["English Premier League", "Spanish La Liga", 'Italian Serie A", "French Ligue 1", "German Bundesliga", "Champions League"].  
     
     **Check *League_Names.py* to see all available league names to choose from!**
 3. The site scraped shows times for the UK, so you will need to adjust the time +/- the difference between where you live and the UK.  
