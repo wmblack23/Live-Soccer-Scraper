@@ -23,7 +23,7 @@ Some notes if you download the program to run on your computer:
       
       c. Then, on line 159, you'll add/subtract the *hours_diff* and *minutes_diff* variables.
       
-      d. **REFER TO THE PICTURE BELOW**
+      d. REFER TO THE PICTURE BELOW
       
       ![Screen Shot 2021-09-10 at 10 49 25 AM 1](https://user-images.githubusercontent.com/69558085/132873046-a414cb90-4399-4d7c-b7d5-2811cd215b5a.png)
 
