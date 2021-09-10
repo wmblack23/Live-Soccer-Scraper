@@ -15,17 +15,18 @@ Some notes if you download the program to run on your computer:
     **Check *League_Names.py* to see all available leagues to choose from.**
 3. The site I scraped (BBC) shows times for the UK, so you will need to adjust the time +/- the difference between where you live and the UK.  
 
-      a. There is a variable titled *hours_diff* on line 157.  Set this variable equal to the number of hours your timezone is different from the UK.
+      a. There is a variable titled *hours_diff* on line 154.  Set this variable equal to the number of hours your timezone is different from the UK.
  
-      b. There is a variable titled *minutes_diff* on line 158.  Do the same, for minutes difference.
+      b. There is a variable titled *minutes_diff* on line 155.  Do the same, for minutes difference.
       
       **The program is set for US EST, so if that is not your timezone it will need to be changed.**
       
-      c. Then, on line 159, you'll add/subtract the *hours_diff* and *minutes_diff* variables.
+      c. Then, on line 160, you'll add/subtract the *hours_diff* and *minutes_diff* variables.
       
       d. REFER TO THE PICTURE BELOW
       
-      ![Screen Shot 2021-09-10 at 10 49 25 AM 1](https://user-images.githubusercontent.com/69558085/132873046-a414cb90-4399-4d7c-b7d5-2811cd215b5a.png)
+      ![Screen Shot 2021-09-10 at 7 53 16 PM](https://user-images.githubusercontent.com/69558085/132928646-3015ece6-0e60-4543-aa92-124c08cc1504.png)
+
 
       
       I live in US EST, so I subtract 5 hours and add/subtract 0 minutes from the UK time.
