@@ -8,8 +8,6 @@ Some notes if you download the program to run on your computer:
 
     `pip install beautifulsoup4`
     
-    `pip install lxml`
-    
 2. There is a list titled *leagues* on line 85.  Fill this list in with all of the leagues that you want to include in your version of the program.  
 
     For me, as an example, *leagues* looks like = ["English Premier League", "Spanish La Liga", 'Italian Serie A", "French Ligue 1", "German Bundesliga", "Champions League"].  
