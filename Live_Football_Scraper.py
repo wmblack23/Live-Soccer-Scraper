@@ -24,6 +24,7 @@ def swap_positions(list, pos1, pos2):
 """
 Function to account for the time zones that have different minutes and hours both
 """
+################################################################################
 def fix_time(time):
     
     start = time[:time.index(":")]
