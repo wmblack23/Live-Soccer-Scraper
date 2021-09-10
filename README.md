@@ -29,6 +29,6 @@ Some notes if you download the program to run on your computer:
 
       
       I live in US EST, so I subtract 5 hours and 0 minutes from the UK time!
-4. Simply run the program from your terminal!
+4. To download the file, click the green "Code" button in the top right and select "Download Zip".  Save the file to your PC, access it through the terminal or command line, and run it like below:
 
 ![Screen Shot 2021-09-10 at 9 23 31 AM](https://user-images.githubusercontent.com/69558085/132860335-b353a012-1b9e-45dd-8dd8-091ec6d3275a.png)
