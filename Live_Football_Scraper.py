@@ -80,7 +80,7 @@ while refresh == '': # Continuous loop to refresh the live scores
 
     html_content = requests.get(url).text
 
-    soup = BeautifulSoup(html_content, "lxml")
+    soup = BeautifulSoup(html_content)
         
 
     leagues = (['English Premier League', 'Spanish La Liga',  'German Bundesliga',  'Italian Serie A', 
