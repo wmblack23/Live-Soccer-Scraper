@@ -135,47 +135,41 @@ while refresh == '': # Continuous loop to refresh the live scores
     """
     ################################################################################
     
-    ct = 0
-    while ct < len(data):
-        if '' in data[ct]:
-                while '' in data[ct]:
-                    swap_positions(data[ct], data[ct].index(''), data[ct].index('') - 2)
-                    blank = data[ct].index('')
-                    blank_2 = data[ct].index('') + 2
-                    data[ct][blank] = '(H)'
-                    data[ct].insert(blank_2, '(A)')
-                ct += 1
-        else:
-            ct += 1
+    for i in data:
+        while '' in i:
+            swap_positions(i, i.index(''), i.index('') - 2)
+            blank = i.index('')
+            blank_2 = i.index('') + 2
+            i[blank] = '(H)'
+            i.insert(blank_2, '(A)')
+
          
     """
-    Because the site scraped was BBC, the times are UK times. I subtract 5 hours to make it US EST kickoff.
-    The for-loop accounts for time zones where the minutes are also different, not just the hours.
+    Because the site I scraped was BBC, the times are UK times. I subtract 5 hours to make it US EST kickoff.
+    The for-loop also accounts for time zones where the minutes are also different, not just the hours.
+    The second nested for loop adds a 0 to the end where they get cut off in the first for loop
     """
     ################################################################################
     
     hours_diff = 5
     minutes_diff = 0
-    data = [[str((int(l[:2]) - hours_diff)) + ":" + (str(int(l[3:]) + minutes_diff)) if ":" in l else l for l in group] for group in data]
     
     for i in data:
         for k in i:
-            if ":" in k and int(k[k.index(":")+1:]) >= 60:
-                i[i.index(k)] = fix_time(k)
+            if ":" in k:
+                i[i.index(k)] = str((int(k[:2]) - hours_diff)) + ":" + (str(int(k[3:]) + minutes_diff))
+                if int(k[k.index(":")+1:]) >= 60:
+                    i[i.index(k)] = fix_time(k)
+            else:
+                k
+        for k in i:
+            if k[-2:] == ':0':
+                i[i.index(k)] = k + '0'         
+        
     
     data = [l for l in data if len(l) != 0]
     data = [[i.replace('&amp;', '&') for i in group] for group in data] # Brighton & Hove Albion problem
-    
-    """
-    Adding a zero to the end of the gametimes when needed
-    """
-    ################################################################################
-    
-    for k in data:
-        for i in k:
-            if i[-2:] == ':0':
-                k[k.index(i)] = i + '0' 
-    
+
     """
     Final print loop
     """
