@@ -22,7 +22,7 @@ def swap_positions(list, pos1, pos2):
     list[pos1], list[pos2] = list[pos2], list[pos1]
 
 """
-Function to account for the time zones that have different minutes and hours both
+Function to account for the time zones that have different minutes and hours both Called later
 """
 ################################################################################
 def fix_time(time):
