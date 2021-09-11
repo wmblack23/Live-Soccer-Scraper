@@ -35,3 +35,5 @@ Some notes if you download the program to run on your computer:
 4. To download the file, click the green "Code" button in the top right and select "Download ZIP".  Save the file to your PC, navigate to where it's located in the terminal or command line, and run it like below:
 
 ![Screen Shot 2021-09-10 at 9 23 31 AM](https://user-images.githubusercontent.com/69558085/132860335-b353a012-1b9e-45dd-8dd8-091ec6d3275a.png)
+
+5. [The website being scraped](https://www.bbc.com/sport/football/scores-fixtures) only shows fixtures +/- 14 days from th current date.  So, if you're trying to view fixtures a month away, nothing will be returned.
