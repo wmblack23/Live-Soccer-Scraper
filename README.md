@@ -8,7 +8,7 @@ Some notes if you download the program to run on your computer:
 
     `pip install beautifulsoup4`
     
-    'pip install requests'
+    `pip install requests`
     
 2. There is a list titled *leagues* on line 85.  Fill this list in with all of the leagues that you want to include in your version of the program.  
 
