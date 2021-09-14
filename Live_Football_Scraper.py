@@ -171,7 +171,7 @@ while refresh == '': # Continuous loop to refresh the live scores
     
     
     
-    """for i in data:
+    for i in data:
         for k in i:
             if ":" in k:
                 i[i.index(k)] = str((int(k[:2]) - hours_diff)) + ":" + (str(int(k[3:]) + minutes_diff))
@@ -181,7 +181,7 @@ while refresh == '': # Continuous loop to refresh the live scores
                 k
         for k in i:
             if k[-2:] == ':0':
-                i[i.index(k)] = k + '0' """        
+                i[i.index(k)] = k + '0'        
         
     
     data = [l for l in data if len(l) != 0]
