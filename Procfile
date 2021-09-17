@@ -1,1 +1,1 @@
-web: gunicorn app:League_Names
+worker: python League_Names.py
