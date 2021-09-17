@@ -1,7 +1,6 @@
 alabaster==0.7.12
 altair==4.1.0
 altgraph==0.17
-anaconda-client==1.7.2
 anaconda-navigator==1.10.0
 anaconda-project==0.8.3
 ansi2html==1.5.2
