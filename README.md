@@ -22,6 +22,8 @@ Some notes if you download the program to run on your computer:
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/69558085/134715220-714d270e-0dd3-453a-b216-9636508353d2.gif)
 
+The program will automatically detect your timezone and adjust the gametimes accordingly.
+
 ## Enjoy!
 *Michael Black*
 
