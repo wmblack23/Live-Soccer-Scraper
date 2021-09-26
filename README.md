@@ -12,7 +12,7 @@ Some notes if you download the program to run on your computer:
     
 2. [The website being scraped](https://www.bbc.com/sport/football/scores-fixtures) only shows fixtures +/- 14 days from the current date.  So, if you're trying to view fixtures a month away, nothing will be returned. 
     
-3. There is a list titled *leagues* on line 103.  Fill this list in with all of the leagues that you want to include in your version of the program.  
+3. There is a list titled *leagues* on line 83.  Fill this list in with all of the leagues that you want to include in your version of the program.  
 
     For me, as an example, *leagues* looks like = ["English Premier League", "Spanish La Liga", 'Italian Serie A", "French Ligue 1", "German Bundesliga", "Champions League"].  
     
